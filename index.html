@@ -13,7 +13,7 @@
         <ul>
             <li> 
               <!-- link one -->
-              <a href="#aboutMe"> About </a>
+              <a href="#welcome"> About </a>
             </li>
             <li>
               <!-- link two -->
@@ -45,41 +45,50 @@
     </div>
 
     <div class = "welcome" align = "center">
-        <h2>Welcome</h2>
+        <h2 class="welcomeinwhite">Welcome</h2>
         <img class="cartoon-potrait" src="circle dashed.png" alt="circle dashed">
-        <p>I'm Stefan, and I love all things tech. Educated in Business and passionate about coding....</p>
-        <!-- Introduction section. Include brief blurb about who I am and what I do -->
+        <p>I'm Stefan, and I love all things tech. Educated in Business and passionate about coding, I love to solve problems and create exceptional 
+            value-driven digital projects. Outside of work you'll find me in the hills as a keen trail runner!
+        </p>
+    
     </div>
     <h2>Digital Blog</h2>
     <div class="digital-blog">
         
-        <div class="box box1"><h3>Purpose</h3>
+        <div class="box box1"><a href="1purpose.html"><h3>Purpose</h3>
             <img src="targetpic.png" alt="purpose pic" width="95%" height="200px">
             <p>The purpose of IT in modern business</p>
+        </a>
         </div>
-        <div class="box box2"><h3>Methods</h3>
+        <div class="box box2"><a href="2methods.html"><h3>Methods</h3>
             <img src="methodpic.png" alt="method pic" width="95%" height="200px">
             <p>The methods, skills and resources of digital projects</p>
+        </a>
         </div>
-        <div class="box box3"><h3>Planning</h3>
+        <div class="box box3"><a href="3planning.html"><h3>Planning</h3>
             <img src="planningpic.jpg" alt="planning pic" width="95%" height="200px">
             <p>How to plan digital projects</p>
+        </a>
         </div>
-        <div class="box box4"><h3>Risks</h3>
+        <div class="box box4"><a href="4DPRisks.html"><h3>Risks</h3>
             <img src="riskpic.png" alt="risk pic" width="95%" height="200px">
             <p>How to manage inherent risks of digital projects</p>
+        </a>
         </div>
-        <div class="box box5"><h3>Software</h3>
+        <div class="box box5"><a href="5softwareSelection.html"><h3>Software</h3>
             <img src="softwarepic.png" alt="software pic" width="95%" height="200px">
             <p>Choosing software for your digital project</p>
+        </a>
         </div>
-        <div class="box box6"><h3>Achieving Outcomes</h3>
+        <div class="box box6"><a href="6outcomeAchieval.html"><h3>Achieving Outcomes</h3>
             <img src="podiumpic.png" alt="outcome pic" width="95%" height="200px">
             <p>Outcome achieval and managing the user experience</p>
+        </a>
         </div>
-        <div class="box box7"><h3>Legal</h3>
+        <div class="box box7"><a href="7Legal.html"><h3>Legal</h3>
             <img src="legalpic.png" alt="legal pic" width="95%" height="200px">
             <p>Legal requirements for digital projects</p>
+        </a>
         </div>
         
 
@@ -88,9 +97,24 @@
 
     
 
-    <div align = "center">
-        <h2>Contact Me</h2>
-        <!-- Contact Form Section -->
+    <div class="contactform">
+        <h2 class="welcome">Contact Me</h2>
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+          
+        
+           
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
     </div>
 
     <div align = "center">
